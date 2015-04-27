@@ -1,0 +1,76 @@
+body{
+    background: gainsboro;
+    font-family: Arial;
+}
+article{
+    background: white;
+    max-width: 1256px;
+    min-width: 700px;
+    min-height: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    border-bottom: double;
+    border-width: 10px;
+}
+.headerBox{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+#headerImg{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+ }
+#headerText{
+    font-size: 50px;
+    margin-left: 200px;
+}
+#admin{
+    float: right;
+    margin: 10px;
+
+}
+#adminImg{
+    width: 12px;
+    height: 15px;
+}
+.movBox{
+    text-decoration: none;
+    border-style: solid;
+    margin: 5px;
+    border-radius: 2%;
+    border-color: black;
+    display: inline-block;
+    height: 400px;
+    width: 320px;
+}
+.movBox:hover,.frontBox:active{
+    border-color: #EC592E;
+}
+#allMov{
+    text-align: center;
+}
+.movImg{
+    height: 400px;
+    width: 320px;
+}
+.logForm{
+    display: block;
+    text-align: center;
+}
+#topLogForm{
+    margin-top: 200px;
+}
